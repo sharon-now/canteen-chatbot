@@ -1,0 +1,214 @@
+text,intent,source,split
+wen do u close,hours,written,train
+from what time do you serve,hours,written,train
+open on monday?,hours,written,train
+are you open on friday,hours,rules,train
+"muraho, mukora kugeza saa ngahe?",hours,local,train
+what time does the canteen open,hours,written,train
+until what time are you open,hours,written,train
+is the canteen open today,hours,written,train
+are you open at 3pm,hours,written,train
+do you work on sunday,hours,written,train
+when do you open?,hours,rules,train
+open till 16:00?,hours,written,train
+when does lunch start,hours,written,train
+closing time?,hours,written,train
+are you open on thursday,hours,written,train
+is it open now,hours,written,train
+what are your opening hours,hours,rules,train
+what time do you stop selling?,hours,unmatched,train
+do you open on weekends,hours,written,train
+mukora ku wa gatandatu?,hours,local,train
+mufungura saa ngahe?,hours,local,train
+opening time pls,hours,written,train
+are you open on saturday,hours,written,train
+kantine ifungura ryari?,hours,local,train
+mumpuze n'umukozi,human,local,train
+i need to talk to a real person,human,written,train
+i need an agent,human,written,train
+can i talk to a person,human,written,train
+connect me to staff,human,written,train
+ndashaka kuvugana n'umukozi wa kantine,human,local,train
+transfer me to staff,human,written,train
+call a staff member,human,written,train
+can someone help me,human,written,train
+i want to talk to the manager,human,written,train
+talk to staff,human,rules,train
+staff pls,human,written,train
+i want to speak to the canteen lady,human,written,train
+get me a person,human,written,train
+is a human there,human,written,train
+connect me to a person,human,rules,train
+call the cook,human,written,train
+can i speak to a human,human,written,train
+need human help,human,written,train
+ndashaka kuvugana n'umuntu,human,local,train
+who can help me here,human,written,train
+is there anyone i can talk to,human,written,train
+pls send someone,human,written,train
+help me pls,human,written,train
+show me the menu,menu,rules,train
+what are the options for lunch,menu,written,train
+is there anything to eat,menu,written,train
+which meals do you have,menu,written,train
+hari ibiryo biriho?,menu,local,train
+ndashaka kureba menu,menu,local,train
+do you sell juice,menu,written,train
+do you sell chips,menu,written,train
+what is available today,menu,written,train
+whats on the menu today,menu,written,train
+what food is available,menu,rules,train
+mufite ibiryo bihe uyu munsi?,menu,local,train
+"hello, what food do you have",menu,written,train
+list the food pls,menu,written,train
+wat do u sell,menu,written,train
+menu please,menu,written,train
+"muraho, mufite iki?",menu,local,train
+any food left,menu,written,train
+what is for lunch today,menu,written,train
+send me the menu,menu,written,train
+what can i eat there,menu,written,train
+wat food do u hv,menu,written,train
+do you have rice and beans,menu,written,train
+ibyo mugurisha ni ibihe?,menu,local,train
+i need 3 chapatis,order,written,train
+can i have chips,order,written,train
+order 1 chips and 1 juice,order,written,train
+can you help me order chips,order,rules,train
+2 chapati pls,order,written,train
+bring me chips,order,written,train
+can i order rice,order,written,train
+"muraho, ndashaka umuceri",order,local,train
+i ll take 3 chips,order,rules,train
+one rice and beans pls,order,written,train
+"Hello, I want 2 beans",order,rules,train
+ndashaka chapati ebyiri,order,local,train
+give me two juices,order,written,train
+ndashaka kugura chips,order,local,train
+mpa juice imwe,order,local,train
+I want 2 chapatis and 1 juice,order,rules,train
+i want rice,order,written,train
+get me 2 chips,order,written,train
+mumpe ibishyimbo bibiri,order,local,train
+let me have beans,order,written,train
+id like to order lunch,order,written,train
+i wanna buy a juice,order,written,train
+hi i want to order,order,written,train
+i want to place an order,order,written,train
+1 beans 1 chapati,order,written,train
+who won the match,out_of_scope,written,train
+the food was cold yesterday,out_of_scope,written,train
+do you give credit,out_of_scope,written,train
+lol,out_of_scope,written,train
+ok,out_of_scope,written,train
+what is the weather today,out_of_scope,written,train
+my phone is lost,out_of_scope,written,train
+murakoze cyane,out_of_scope,local,train
+do you have a job for students,out_of_scope,written,train
+mwiriwe,out_of_scope,local,train
+the chapati was burnt,out_of_scope,written,train
+who is the headteacher,out_of_scope,written,train
+bye,out_of_scope,written,train
+what is 2+2,out_of_scope,written,train
+what is your name,out_of_scope,written,train
+nshobora kwishyura na momo?,out_of_scope,local,train
+the queue is too long,out_of_scope,written,train
+hello,out_of_scope,written,train
+how do i cook rice,out_of_scope,written,train
+ibiryo byari bikonje,out_of_scope,local,train
+tell me a joke,out_of_scope,written,train
+thanks,out_of_scope,written,train
+the juice was sour,out_of_scope,written,train
+can i pay later,out_of_scope,written,train
+asdfgh,out_of_scope,unmatched,train
+can i pay with momo,out_of_scope,written,train
+"hi, how much is rice",price,rules,train
+what is the cheapest item,price,written,train
+hw mch is rice,price,written,train
+how much is everything,price,written,train
+rice price?,price,written,train
+how much 4 rice n beans,price,written,train
+igiciro cya juice ni ikihe?,price,local,train
+is juice 500,price,written,train
+tell me the price of rice,price,written,train
+how much r the chips,price,written,train
+do chips cost 800,price,written,train
+how much for 2 chapati,price,written,train
+"muraho, umuceri ni angahe",price,local,train
+how much does juice cost,price,rules,train
+cost of a chapati,price,written,train
+wat is the cost of juice,price,written,train
+price of chips,price,written,train
+pls how much is chapati,price,written,train
+how much is chapati,price,rules,train
+chapati igura angahe?,price,local,train
+what is the price of beans,price,rules,train
+what do i pay for beans and rice,price,written,train
+umuceri ni angahe?,price,local,train
+is chapati cheaper than chips,price,written,train
+is it ready,status,rules,train
+where is my order,status,rules,train
+has my order been made,status,written,train
+did u get my order,status,written,train
+order yanjye yarangiye?,status,local,train
+"my order, is it ready now",status,written,train
+how long for my order,status,written,train
+"hi, is my food ready",status,written,train
+when will my chapati be ready,status,written,train
+order status,status,rules,train
+how far is my order,status,written,train
+order ready?,status,written,train
+is my lunch ready yet,status,written,train
+is my rice ready,status,written,train
+wat is happening with my order,status,written,train
+ibyo nasabye byarangiye?,status,local,train
+check my order,status,written,train
+order yanjye iri he?,status,local,train
+is my order done,status,written,train
+where is my juice,status,written,train
+how many minutes for my order,status,written,train
+"muraho, order yanjye iri he",status,local,train
+can i collect my order,status,written,train
+ese ibyo naguze bigezehe?,status,local,train
+whats ur schedule,hours,written,test
+mufunga saa ngahe?,hours,local,test
+mufunguye none?,hours,local,test
+hours?,hours,written,test
+what days are you open,hours,written,test
+what time do you open on wednesday,hours,written,test
+let me speak to someone,human,written,test
+give me a real person,human,written,test
+i dont want a bot,human,written,test
+nkeneye ubufasha,human,local,test
+hari umuntu wo kumfasha?,human,local,test
+i need help,human,rules,test
+menu ni iyihe?,menu,local,test
+what do you sell?,menu,rules,test
+do you have any drinks,menu,written,test
+can i see what you are selling,menu,written,test
+show me wat u have,menu,written,test
+what do you have,menu,rules,test
+can i get rice n beans,order,written,test
+give me rice,order,rules,test
+i would like some rice,order,written,test
+buy 2 rice for me,order,written,test
+put me down for 2 juice,order,written,test
+ndashaka umuceri,order,local,test
+amakuru?,out_of_scope,local,test
+i love this bot,out_of_scope,written,test
+where is the library,out_of_scope,written,test
+good morning,out_of_scope,written,test
+qwerty,out_of_scope,written,test
+sing a song,out_of_scope,written,test
+chips cost how much,price,written,test
+ibishyimbo ni bangahe?,price,local,test
+chips ni angahe?,price,local,test
+how much is one juice,price,written,test
+how much do beans cost,price,written,test
+price list please,price,written,test
+status of my order,status,written,test
+"i ordered 10 minutes ago, where is it",status,written,test
+any update on my food,status,written,test
+wheres my food,status,written,test
+is my food ready,status,written,test
+when can i pick up my food,status,written,test
